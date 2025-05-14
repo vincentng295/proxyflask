@@ -1,0 +1,4 @@
+flask
+beautifulsoup4
+curl_cffi
+h2
