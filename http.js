@@ -4,7 +4,7 @@
     return url.replace(/^https?:\/\/([^\/]+)(\/.*)?$/, (_, domain, path = '') => {
       // Kiểm tra nếu domain chưa kết thúc bằng "localhost:1337"
       if (!domain.endsWith(".localhost:1337")) {
-      return `http://${domain}.localhost:1337${path}`;
+      return `https://${domain}.localhost:1337${path}`;
       }
       return url; // Nếu domain đã có "localhost:1337", trả về url gốc
     });

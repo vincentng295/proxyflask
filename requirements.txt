@@ -2,3 +2,4 @@ flask
 beautifulsoup4
 httpx
 h2
+quart
